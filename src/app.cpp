@@ -49,7 +49,7 @@ void app::viewTodolist()
     }
     else
     {
-        std::cout << "Please make add a task!\n";
+        std::cout << "Todolist empty! Please add a task! Type help for list of commands\n";
     }
 }
 

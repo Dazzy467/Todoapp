@@ -1,5 +1,5 @@
 DEBUG_FLAG = -g
-RELEASE_FLAG = -s -O3
+RELEASE_FLAG = -s -static -O3
 PATH_D = build/debug
 PATH_R = build/release
 
