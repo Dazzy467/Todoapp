@@ -44,7 +44,7 @@ void app::viewTodolist()
     {
         for (size_t i = 0; i < TodoList.size(); i++)
         {
-            std::cout << i + 1 << ". " << std::setw(20) << std::left << TodoList[i].task << ((TodoList[i].done)? "Completed\n" : "Blank\n");
+            std::cout << i + 1 << ". " << std::setw(20) << std::left << TodoList[i].task << ((TodoList[i].done)? "Finished\n" : "Unfinished\n");
         }
     }
     else
